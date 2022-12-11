@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #161c2e; 
+    font-family: 'Jura', sans-serif;   
+    font-weight: bold;
+  }
+.product-informations{
+    display:flex;
+    align-items: center;
+}
+.clientes-img img {
+    height: 300px;
+    width: 300px;
+}
+.product-button {
+    display: grid;
+    justify-content: center;
+}
+.product-button button{
+    padding: 42px 1px;
+    border-radius: 15px;
+    width: 344px;
+    background-color: #507DBC;
+    margin-bottom: 10px;
+}
+.product-button button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.clientes-img {
+    width: 50%;
+    text-align: center;
+}
+.clientes-form {
+    width: 50%;
+    display: grid;
+}
+.clientes-form span{
+    background-color: #A1C6EA;
+    border-radius: 10px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    font-size: 34px;
+    text-align: center;
+}
+.clientes-form div {
+    margin: 12px;
+}
+
+.nomeEmpresa {
+    margin-top: 49px;
+}
+
+#textInput {
+    padding: 12px 280px;
+}
+
+h1 {
+    color: #fff;
+}
+.product-button-secondary button{
+    background-color: #A1C6EA;
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+
+.product-button-secondary a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.product-button button:first-child {
+    background-color: #EAF1FC;
+}
+ div:last-child #textInput-0 {
+    padding-top: 140px;
+}
+.report {
+    padding-bottom: 210px!important;
+}
+#cliente {
+    margin-top: 50px;
+}

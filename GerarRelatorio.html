@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar relatório</title>
+    <link rel="stylesheet" href="GerarRelatorio.css">
+   
+</head>
+<body>
+    <div id="cliente">
+        <div class="product-informations">
+           <div class="clientes-img">
+            <img src="IMG-20220903-WA0033.jpg">  
+            <h1>RM Technology</h1>
+            <div class="product-button">
+                <button><a href="">CONSULTAR CHAMADOS</a></button>
+                <button><a href="">CONSULTAR BASE DE CONHECIMENTO</a></button>
+                <button><a href="">CHAMADOS ATENDIDOS</a></button>
+                <button><a href="">GERAR RELATÓRIOS</a></button>
+                <button><a href="">CADASTROS</a></button>
+            </div>
+           </div> 
+            <div class="clientes-form">
+   
+                  <div class="nomeEmpresa">
+                         <span>FUNCIONÁRIO</span><br>
+                         <input id="textInput" class="custom" type="text">
+                  </div>
+                  <div>
+                    <span>DATA</span><br>
+                    <input id="textInput" class="custom" type="email">
+                  </div>
+                  <div>
+                    <span>STATUS DO CHAMADO</span><br>
+                    <select name="cars" id="cars">
+                        <option value="volvo">RESOLVIDOS</option>
+                        <option value="saab">PENDENTES</option>
+                        <option value="opel">EM ESPERA</option>
+                        <option value="audi">EM ABERTO</option>
+                      </select>
+                  </div>
+                  <div>
+                    <span>SLA</span><br>
+                    <input id="textInput" class="custom report" type="text">
+                  </div>
+                  <div>
+                    <span>FORMATO DO ARQUIVO</span><br>
+                    <select name="cars" id="cars">
+                        <option value="volvo">EXCEL</option>
+                        <option value="saab">PDF</option>
+                        <option value="opel">CSV</option>
+                      </select>
+                  </div>
+                
+                  <div class="product-button-secondary">
+                    <button><a href="">REINICIAR FILTROS</a></button>
+                    <button><a href="">GERAR RELATÓRIOS</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

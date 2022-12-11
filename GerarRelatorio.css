@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #161c2e; 
+    font-family: 'Jura', sans-serif;   
+    font-weight: bold;
+  }
+.product-informations{
+    display:flex;
+    align-items: center;
+}
+.clientes-img img {
+    height: 300px;
+    width: 300px;
+}
+.product-button {
+    display: grid;
+    justify-content: center;
+}
+.product-button button{
+    padding: 42px 1px;
+    border-radius: 15px;
+    width: 344px;
+    background-color: #507DBC;
+    margin-bottom: 10px;
+}
+.product-button button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.clientes-img {
+    width: 50%;
+    text-align: center;
+}
+.clientes-form {
+    width: 50%;
+    display: grid;
+}
+
+.clientes-form div {
+    margin: 12px;
+}
+
+.nomeEmpresa {
+    margin-top: 49px;
+}
+
+#textInput {
+    padding: 12px 280px;
+}
+
+h1 {
+    color: #fff;
+}
+.product-button-secondary a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.product-button button:nth-child(4) {
+    background-color: #EAF1FC;
+}
+ div:last-child #textInput-0 {
+    padding-top: 140px;
+}
+.clientes-form {
+    color: #fff;
+    font-size: 25px;
+}
+#cliente {
+    margin-top: 50px;
+}
+.product-button-secondary {
+    text-align: right;
+    margin-right: 195px!important;
+}
+.product-button-secondary button:first-child {
+    padding: 10px 50px;
+    background: #F4C1C1;
+}
+.product-button-secondary button:last-child {
+    padding: 10px 50px;
+    background: #C1F4C3;
+}
+#cars {
+    padding: 12px 311px;
+    width: 80%;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #161c2e; 
+    font-family: 'Jura', sans-serif;   
+    font-weight: bold;
+  }
+
+.login-page {
+  width: 500px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #A1C6EA;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 12px;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #c4c4c4;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+}
+form h2 {
+    font-size: 16px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #acd0cc;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #000;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.form button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #000;
+  font-size: 12px;
+  float: right;
+  margin-top: 0;
+margin-bottom: 10px;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.login-form img {
+  width: 100px;
+  height: 100px;
+}
